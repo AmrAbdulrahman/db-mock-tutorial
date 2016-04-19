@@ -1,0 +1,17 @@
+{
+  "name": "db-mock-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amr Abdulrahman <abu.muslim.amr@gmail.com> (https://amrabdulrahman.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "db-mock": "0.0.5",
+    "express": "^4.13.4",
+    "lodash": "^4.11.1"
+  }
+}

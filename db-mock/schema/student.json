@@ -1,0 +1,27 @@
+{
+  "name": {
+    "type": "string",
+    "required": true
+  },
+  "age": {
+    "type": "number",
+    "min": 0,
+    "max": 100
+  },
+  "dateOfBirth": "date",
+  "married": "bool",
+  "sons": {
+    "type": "array",
+    "required": true
+  },
+  "$has": {
+    "one": [{
+      "relationWith": "profile",
+      "required": true,
+      "inject": true
+    }],
+    "many": [
+      "course"
+    ]
+  }
+}
